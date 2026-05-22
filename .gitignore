@@ -12,7 +12,7 @@ _attachments/
 
 # Personal second brain content (keep structure, not content)
 wiki/**/*.md
-raw/**/*
+raw/**/*.md
 Clippings/**/*.md
 journal/**/*.md
 

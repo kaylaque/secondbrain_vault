@@ -1,0 +1,11 @@
+# Obsidian binary
+Obsidian.AppImage
+
+# Obsidian internal config
+.obsidian/
+
+# Large binary attachments (PDFs, images)
+_attachments/
+
+# macOS noise
+.DS_Store

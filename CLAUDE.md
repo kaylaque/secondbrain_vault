@@ -19,16 +19,30 @@ No plugins the AI needs to care about. Just files, folders, frontmatter, and wik
 ## Folder map
 
 ```
-raw/             ← INBOX: PDFs go to _attachments/, stubs here.
-Clippings/       ← INBOX: Obsidian Web Clipper saves here. Treat same as raw/.
-raw/processed/   ← Move source files here after ingesting (from both raw/ and Clippings/). Never delete.
-wiki/            ← Permanent atomic notes. FLAT — no subfolders. One idea per file.
-journal/         ← Daily captures. Format: YYYY-MM-DD.md
-_attachments/    ← Binary files (PDFs, images). You do NOT read these directly.
-_templates/      ← Note templates. Read these to understand expected structure.
-index.md         ← Master list of all wiki/ pages. YOU maintain this.
-log.md           ← Append one line per session: date + what you did.
+raw/                  ← INBOX: PDFs go to _attachments/, stubs here.
+Clippings/            ← INBOX: Obsidian Web Clipper saves here. Treat same as raw/.
+raw/processed/        ← Move source files here after ingesting. Never delete.
+wiki/                 ← All permanent atomic notes. Four subfolders by role.
+wiki/concepts/        ← Synthesized ideas not tied to a single source.
+wiki/entities/        ← People, organizations, tools.
+wiki/sources/         ← One summary page per ingested source (papers, articles, videos).
+wiki/comparisons/     ← Synthesis pages filed from queries.
+wiki/overview.md      ← High-level orientation: vault topic clusters and status.
+journal/              ← Daily captures. Format: YYYY-MM-DD.md
+_attachments/         ← Binary files (PDFs, images). You do NOT read these directly.
+_templates/           ← Note templates. Read these to understand expected structure.
+index.md              ← Master list of all wiki/ pages. YOU maintain this.
+log.md                ← Append one line per session: date + what you did.
 ```
+
+**Ingest routing — which subfolder to place new wiki pages in:**
+
+| Page type | Target subfolder |
+|---|---|
+| Paper, article, video summary | `wiki/sources/` |
+| Synthesized concept (no single source) | `wiki/concepts/` |
+| Person, organization, tool | `wiki/entities/` |
+| Query result filed as note | `wiki/comparisons/` |
 
 ---
 

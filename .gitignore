@@ -9,3 +9,20 @@ _attachments/
 
 # macOS noise
 .DS_Store
+
+# Personal second brain content (keep structure, not content)
+wiki/**/*.md
+raw/**/*
+Clippings/**/*.md
+journal/**/*.md
+
+# Personal metadata files
+index.md
+log.md
+CLAUDE.md
+
+# Keep .gitkeep files (preserve empty directories)
+!**/.gitkeep
+
+# Setup metadata
+.claude-whoami

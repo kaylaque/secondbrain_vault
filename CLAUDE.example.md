@@ -7,7 +7,7 @@
 
 ## Who I am
 
-I am a researcher, student, software engineer, and creator with focus areas in artificial intelligence, psychology, and science. My goal is to build a connected knowledge base from papers, articles, videos, and ideas I encounter.
+I am a __ROLES__ with focus areas in __FOCUS_AREAS__. My goal is to build a connected knowledge base from papers, articles, videos, and ideas I encounter.
 
 ## What this vault is
 

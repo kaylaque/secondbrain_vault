@@ -59,6 +59,12 @@ When asked a question against the wiki:
 3. Synthesize an answer with `[[wikilink]]` citations to the pages you used
 4. If the answer surfaces a useful synthesis (a comparison, a pattern, a resolved tension), offer to file it as a new wiki page (`type: comparison` or `type: concept`, `status: seedling`)
 
+**Search at scale:** When the wiki grows beyond ~100 pages and `index.md` becomes too large to read in one pass, use `qmd` for hybrid BM25/vector search instead of step 1:
+```
+qmd query "<question>" --json
+```
+Setup: `npm install -g @tobilu/qmd && qmd collection add ./wiki --name vault`
+
 ---
 
 ## Lint workflow

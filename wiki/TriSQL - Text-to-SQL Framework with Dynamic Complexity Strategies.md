@@ -8,7 +8,7 @@ authors: ["Xiaodong Su", "Yang Gu", "Peng Wang", "Wei Gu", "Lincheng Qi", "Jingw
 year: 2026
 venue: "Scientific Reports (Nature)"
 doi: "10.1038/s41598-026-39128-9"
-related: []
+related: ["[[MATS - Multi-Agent Text2SQL]]"]
 status: seedling
 ---
 
@@ -85,6 +85,7 @@ The three-stage design is well-motivated and the robustness framing (not just ag
 
 ## Connects to
 
+- [[MATS - Multi-Agent Text2SQL]] — complementary approach: MATS targets resource-constrained SLM deployment; TriSQL targets accuracy at high complexity using large LLMs. TriSQL routes within a single pipeline; MATS distributes roles across agents.
 - [[Spider Benchmark]] — primary evaluation dataset
 - [[DIN-SQL]] — baseline; uses difficulty-aware prompting but uniform strategy
 - [[RESDSQL]] — baseline; decouples schema linking from generation but uses static relevance

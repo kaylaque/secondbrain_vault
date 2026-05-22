@@ -1,3 +1,4 @@
+<!-- BAD CLIP: Web Clipper captured only the references/bibliography section — no article body, no abstract, no content. Re-clip from bioRxiv (DOI: 10.64898/2026.01.28.702283) or skip. Not ingested. -->
 ---
 title: "Biosynthetic gene clusters everywhere, but the environment selects"
 source: "https://www.biorxiv.org/content/10.64898/2026.01.28.702283v1.full"

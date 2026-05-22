@@ -7,7 +7,7 @@ source: "https://arxiv.org/html/2601.13671v1"
 authors: [Apoorva Adimulam, Rajesh Gupta, Sumit Kumar]
 year: 2025
 venue: "arXiv preprint (arXiv:2601.13671)"
-related: []
+related: ["[[MATS - Multi-Agent Text2SQL]]"]
 status: seedling
 ---
 
